@@ -1,0 +1,21 @@
+ExpectMSU is a Perl module for use internally at Montclair State
+University.  It requires the use of Expect.pm to connect to MSU VAX/VMS
+systems and MSU Cisco routers.
+
+If you do not have Expect installed, you can use the following command
+to download and install it:
+	perl -MCPAN -e'install Bundle::Expect'
+
+Installation on a system with a properly configured Perl package should be as
+easy as entering "make all" from the top level directory of the distribution.
+
+If you have problems or would like to try the Perl standard method of
+installation, cd to the Source directory and follow the same steps as for
+the installtion of most other Perl modules:
+        1) Use Perl to create the Makefile:
+                perl Makefile.pl
+        2) Prepare the module:
+                make
+        3) Install the module:
+                make install
+        4) Go have a beer.  :)

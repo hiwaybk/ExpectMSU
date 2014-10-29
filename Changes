@@ -1,0 +1,32 @@
+Revision history for Perl extension ExpectMSU.
+
+0.20    Tue Oct 28 22:48:57 EDT 2014
+
+    - A couple of minor tweaks (mostly small bugs)
+    - Modified some password prompts to account for capitalization
+
+0.12	Mon Aug  6 16:51:12 EDT 2012
+
+	- Added "maximum_buffer_length" setting to adjust the Perl
+	  Expect $object->max_accum value
+
+0.111	Thu May  3 12:08:10 EDT 2012
+
+	- Corrected minor error with case of the "Password" prompt when
+	  using the UnixSSH connection type
+	- Created a "loopAttempts" for how many Expect attempts should
+	  be tried
+
+0.11	Mon Feb 20 18:17:34 EST 2012
+
+	- Incorporated manual changes after years(!) of neglect:
+		- Added the unixssh connection type
+	- Added section for HP switch OS
+
+0.10	Tue Jun  6 14:47:58 EDT 2000
+	- first release
+	- packaged module
+
+0.01	Tue Jun  6 14:38:44 2000
+	- original version; created by h2xs 1.19
+
